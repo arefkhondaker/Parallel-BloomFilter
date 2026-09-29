@@ -1,6 +1,6 @@
 # Parallel Bloom Filter (CUDA)
 
-A Bloom filter built twice, once as a sequential CPU version and once as a parallel GPU version in CUDA, so the two can be timed against each other. Written for COP4520 (Project 3).
+A Bloom filter built twice, once as a sequential CPU version and once as a parallel GPU version in CUDA, so the two can be timed against each other.
 
 The program generates a set of random strings, inserts them into the filter, then queries every one of them back. It reports the time each version took, the GPU speedup over the CPU, and the number of false negatives. A correct Bloom filter should have zero false negatives.
 
